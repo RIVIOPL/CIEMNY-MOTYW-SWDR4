@@ -1,0 +1,179 @@
+// ==UserScript==
+// @name         Ciemny Motyw dla td2 (WWW)
+// @namespace    https://greasyfork.org/pl/scripts/416034-ciemny-motyw-dla-td2-www
+// @version      3.8(OFFICIAL)
+// @description  ciemny motyw dla td2.info.pl Autor RIVIO @2020
+// @author       RIVIO @2020
+// @match        https://rj.td2.info.pl/*
+// @run-at       document-end
+// ==/UserScript==
+
+(function() {var css = [
+
+/*NIE MODYFIKUJEMY bez zgody autora(w celu naprawy zgłoś się do autora skryptu)*/
+/*Dodatki od Autora na jakieś wydarzenia*/
+
+    /*Święta*/
+    "body, .login-page, .register-page, .content, .content-wrapper, .bg-white, content-wrapper swdrMainWindow {",
+    "    background-image: url('https://img.td2.info.pl/images/2020/12/11/snow1.png'), url('https://img.td2.info.pl/images/2020/12/11/snow2.png'), url('https://img.td2.info.pl/images/2020/12/11/snow3.png') !important;",
+    "    animation: snow 20s linear infinite;",
+    "}",
+    "@keyframes snow {",
+    "   0% {background-position: 0px 0px, 0px 0px, 0px 0px;}",
+    "   100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}",
+    "}",
+    ".login-box, .register-box {",
+    "    background-image: url('https://img.td2.info.pl/images/2020/12/11/wesolych921ee60944f7a81f.png') !important;",
+    "    background-repeat: no-repeat !important;",
+    "    background-position: center-top;",
+    "}",
+
+/*Skrypt*/
+
+    /* Główne */
+	"body, .login-page, .register-page, .content, .content-wrapper, .bg-white, content-wrapper swdrMainWindow {",
+    "    background: #1b1b1b; ",
+    "    background-color: #1b1b1b !important; ",
+    "}",
+    ".col, .panel-default>.panel-heading+.panel-collapse>.panel-body, .panel-default>.panel-heading, .login-box-body, .register-box-body, .table-striped>tbody>tr:nth-of-type(odd), .box, .box-footer, .modal-body, .modal-footer, .modal-content, td.editorTD, tbody#editorMainObject, swdrCenterTable table-hover, .swdrCenterTable th {",
+    "    background-color: #212121 !important; ",
+    "}",
+    " .form-control, .ui-menu, .dropup .dropdown-menu, select, .dropdown-menu, .dropdown-menu>li {",
+    "    background-color: #313131 !important; ",
+    "}",
+
+    /*Rozkłady Jazdy*/
+    "a[class|='navbar-brand'] {",
+    "    color: #fff !important;",
+    "}",
+    "a .navbar-brand{",
+    "    color: fff !important;",
+    "}",
+    "tr[style|='background-color:#3c3c3c;color:white'] {",
+    "    background-color: #42000080 !important;",
+    "}",
+    "tr[style|='background-color:lightgray;'] {",
+    "    background-color: #00420180 !important;",
+    "}",
+    "tr[style|='background-color:white;'] {",
+    "    background-color: #1a1a1a !important;",
+    "}",
+    "tr[style|='background-color: 3c3c3c color:white'] {",
+    "    background-color: #42000080 !important;",
+    "}",
+    "tr[style|='background-color: lightgray'] {",
+    "    background-color: #00420180 !important;",
+    "}",
+    "tr[style|='background-color: white'] {",
+    "    background-color: #1a1a1a !important;",
+    "}",
+    "/* .swdrCenterTable>tbody>tr {",
+    "    background-color: #292929 !important;",
+    "}*/",
+    ".context-menu-item.context-menu-hover {",
+    "    background-color: #353535 !important;",
+    "}",
+    ".context-menu-item {",
+    "    color: #fff !important;",
+    "}",
+    ".context-menu-list {",
+    "    background-color: #292929 !important;",
+    "}",
+    ".table-hover > tbody > tr:hover {",
+    "    background-color: #262626 !important;",
+    "}",
+    ".manualTTLines>li {",
+    "    color: #fff;",
+    "}",
+    ".manualTTLines>li {",
+    "    background-color: #262626 !important;",
+    "}",
+    "#timetableErrorsMan>ul>li {",
+    "    background-color: #dd4b39 !important;",
+    "}",
+    ".context-menu-item.context-menu-submenu, .context-menu-item {",
+    "    background: #212121",
+    "}",
+
+    /* do zmiany */
+    "body, .login-logo, .register-logo, .login-box-body, .btn-danger, .btn-primary, .form-control, .close, tbody#swdrMainDispatchersTab>tr>td, tbody#swdrMainDriversTab>tr>td, table#ttTimeConfirmTable>tbody>tr>td, div.table-responsive.col-xs-12>table>tbody>tr>td,.h1, #swdrSettingsModal.modal.fade.in>.modal-dialog.modal-lg>.modal-content>.modal-body>.table.swdrCenterTable>tbody>tr>td, .swdrCenterTable.table-hover.swdrTimeTable>thead>tr, .swdrCenterTable.table-hover.swdrTimeTable>tbody>tr, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {",
+    "    color: #fff !important;",
+    "}",
+    ".login-box-msg, .register-box-msg {",
+    "    color: #f00 !important;",
+    "}",
+    "a {",
+    "    color: #3c8dbc !important;",
+    "}",
+    " tr.cPointer.timetableMenuTrigger, .table-responsive>tbody>tr>td, .table.swdrCenterTable>tbody>tr>td {",
+    "    color: #fff !important;",
+    "}",
+    " .jumbotron.text-center, .jumbotron .h1, .jumbotron h1 {",
+    "    color: #444 !important;",
+    "}",
+    ".box-footer, .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {",
+    "    border-top: 1px solid #212121 !important;",
+    "}",
+    ".box-header.with-border {",
+    "    border-bottom: 1px solid #212121 !important;",
+    "}",
+    ".direct-chat-text {",
+    "    border: 1px solid #ffffff00;",
+    "}",
+
+    /* przewijak */
+	" ::-webkit-scrollbar {",
+	"    width: 10px!important;",
+	"    height: 10px!important;",
+	"}",
+	"::-webkit-scrollbar-button {",
+	"    width: 0px!important;",
+	"    height: 0px!important;",
+	"}",
+	"::-webkit-scrollbar-thumb {",
+	"    background: #6c6c6c!important;",
+	"    border: none!important;",
+	"    border-radius: 0px!important;",
+	"}",
+	"::-webkit-scrollbar-thumb:hover {",
+	"    background: #6c6c6c!important;",
+	"}",
+	"::-webkit-scrollbar-thumb:active {",
+	"    background: #7d7d7d!important;",
+	"}",
+	"::-webkit-scrollbar-track {",
+	"    background: #313131!important;",
+	"    border: none!important;",
+	"    border-radius: 0px!important;",
+	"}",
+	"::-webkit-scrollbar-track:hover {",
+	"    background: #333333!important;",
+	"}",
+	"::-webkit-scrollbar-track:active {",
+	"    background: #4d4d4d!important;",
+	"}",
+	"::-webkit-scrollbar-corner {",
+	"    background: transparent!important;",
+	"}"
+
+/*To cię nie interesuje, tak jak mnie :P*/
+
+].join("\n");
+if (typeof GM_addStyle != "undefined") {
+	GM_addStyle(css);
+} else if (typeof PRO_addStyle != "undefined") {
+	PRO_addStyle(css);
+} else if (typeof addStyle != "undefined") {
+	addStyle(css);
+} else {
+	var node = document.createElement("style");
+	node.type = "text/css";
+	node.appendChild(document.createTextNode(css));
+	var heads = document.getElementsByTagName("head");
+	if (heads.length > 0) {
+		heads[0].appendChild(node);
+	} else {
+		document.documentElement.appendChild(node);
+	}
+}
+})();
