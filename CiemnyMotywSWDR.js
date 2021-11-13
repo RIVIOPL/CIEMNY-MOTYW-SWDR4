@@ -5,8 +5,8 @@
 
 
 	"body, .login-page, .register-page, .content, .content-wrapper, .bg-white, content-wrapper swdrMainWindow {",
-    "    background: #ffffff; ",
-    "    background-color: #ffffff !important; ",
+    "    background: #1b1b1b; ",
+    "    background-color: #1b1b1b !important; ",
     "}",
     " .col, .panel-default>.panel-heading+.panel-collapse>.panel-body, .panel-default>.panel-heading, .login-box-body, .register-box-body, .table-striped>tbody>tr:nth-of-type(odd), .box, .box-footer, .modal-body, .modal-footer, .modal-content, td.editorTD, tbody#editorMainObject, swdrCenterTable table-hover, .swdrCenterTable th {",
     "    background-color: #212121 !important; ",
