@@ -1,14 +1,3 @@
-// ==UserScript==
-// @name         Ciemny Motyw dla td2 (WWW)
-// @namespace    https://greasyfork.org/pl/scripts/416034-ciemny-motyw-dla-td2-www
-// @version      6.7 (OFFICIAL)
-// @description  ciemny motyw dla td2.info.pl Autor RIVIO @2021
-// @author       RIVIO @2021
-// @match        https://rj.td2.info.pl/*
-// @updateURL    https://raw.githubusercontent.com/RIVIOPL/CIEMNY-MOTYW-SWDR4/main/CiemnyMotywSWDR.js
-// @downloadURL  https://raw.githubusercontent.com/RIVIOPL/CIEMNY-MOTYW-SWDR4/main/CiemnyMotywSWDR.js
-// @run-at       document-end
-// ==/UserScript==
 /*---------------------------  Skrypt  ----------------------------*/
                        (function() {var css = [
 
