@@ -200,7 +200,6 @@
 
 /*----------------------------  Swieta  ------------------------------*/
 
-/*
     "body.hold-transition.login-page, div.content-wrapper.swdrMainWindow, div.content-wrapper.swdrLoaderWindow, section.content {",
     "    background-image: url('https://img.td2.info.pl/images/2020/12/11/snow1.png'), url('https://img.td2.info.pl/images/2020/12/11/snow2.png'), url('https://img.td2.info.pl/images/2020/12/11/snow3.png') !important;",
     "    animation: snow 30s linear infinite;",
@@ -209,7 +208,7 @@
     "     0% {transform: translate3d(var(--left-ini), 0, 0);}",
     "   100% {transform: translate3d(var(--left-end), 0, 110vh);}",
     "}",
-*/
+
 /*---------------------------------------------------------------------*/
     /* Tworzenie elementu skryptu */
 
@@ -253,7 +252,7 @@
 
 /*----------------------------  Swieta  ------------------------------*/
 
-/*
+
     setTimeout(function(){
     $("div.login-logo").prepend ( `
        <p style="margin: 10 auto">
@@ -264,4 +263,4 @@
     ` );
     $("div.login-logo").show("fast"); }, 0);
     $("audio#signalBlockEAPAudioPlayer").replaceWith(`<audio id="signalBlockEAPAudioPlayer"><source src="https://www.dropbox.com/s/hd1besebctxv66f/Blokada.mp3?raw=1" type="audio/mp3"><source src="https://www.dropbox.com/s/9f06ilhm427xuoi/Blokada.flac?raw=1" type="audio/flac"></audio>`);
-*/
+
