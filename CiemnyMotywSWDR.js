@@ -1,3 +1,15 @@
+// ==UserScript==
+// @name         Ciemny Motyw dla td2 (WWW)
+// @namespace    https://greasyfork.org/pl/scripts/416034-ciemny-motyw-dla-td2-www
+// @version      6.4 (OFFICIAL)
+// @description  ciemny motyw dla td2.info.pl Autor RIVIO @2021
+// @author       RIVIO @2021
+// @match        https://rj.td2.info.pl/*
+// @run-at       document-end
+// ==/UserScript==
+/*------------------------------------------------------------------------------*/
+/*NIE MODYFIKUJEMY bez zgody autora(w celu naprawy zgłoś się do autora skryptu)*/
+
 /*---------------------------  Skrypt  ----------------------------*/
                        (function() {var css = [
 
@@ -200,6 +212,7 @@
 
 /*----------------------------  Swieta  ------------------------------*/
 
+/*
     "body.hold-transition.login-page, div.content-wrapper.swdrMainWindow, div.content-wrapper.swdrLoaderWindow, section.content {",
     "    background-image: url('https://img.td2.info.pl/images/2020/12/11/snow1.png'), url('https://img.td2.info.pl/images/2020/12/11/snow2.png'), url('https://img.td2.info.pl/images/2020/12/11/snow3.png') !important;",
     "    animation: snow 30s linear infinite;",
@@ -208,7 +221,7 @@
     "     0% {transform: translate3d(var(--left-ini), 0, 0);}",
     "   100% {transform: translate3d(var(--left-end), 0, 110vh);}",
     "}",
-
+*/
 /*---------------------------------------------------------------------*/
     /* Tworzenie elementu skryptu */
 
@@ -252,7 +265,7 @@
 
 /*----------------------------  Swieta  ------------------------------*/
 
-
+/*
     setTimeout(function(){
     $("div.login-logo").prepend ( `
        <p style="margin: 10 auto">
@@ -263,4 +276,4 @@
     ` );
     $("div.login-logo").show("fast"); }, 0);
     $("audio#signalBlockEAPAudioPlayer").replaceWith(`<audio id="signalBlockEAPAudioPlayer"><source src="https://www.dropbox.com/s/hd1besebctxv66f/Blokada.mp3?raw=1" type="audio/mp3"><source src="https://www.dropbox.com/s/9f06ilhm427xuoi/Blokada.flac?raw=1" type="audio/flac"></audio>`);
-
+*/
